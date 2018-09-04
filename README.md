@@ -13,6 +13,11 @@ The MONK-1 dataset could also be hard to learn because it could take time to rea
 It would be easiest to learn the MONK-3 dataset because it would be easier to see that every time a5 and a4 is 1 or every time a5 is not 4 and a2 is not 3 it would evaluate to true. 
 
 ### Assignment 1
+_**Assignment 1**: The file dtree.py defines a function entropy which
+calculates the entropy of a dataset. Import this file along with the
+monks datasets and use it to calculate the entropy of the training
+datasets_.
+
 
 Dataset                | Entropy
 ----------------------------|-----------------------------
