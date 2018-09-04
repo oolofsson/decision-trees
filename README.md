@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-# decision-trees
-Machine Learning Laboration 1: Decision Trees
-
-## Assignment 0
-
-## Assignment 1
-
-## Assignment 2
-
-## Assignment 3
-
-## Assignment 4
-
-## Assignment 5
-
-## Assignment 6
-
-## Assignment 7
-=======
 ## Decision trees, Machine Learning DD2421 Lab 1
 
 _authors: wvage@kth.se, oskarolo@kth.se_.
@@ -86,9 +66,10 @@ after the split and what the entropy implies._
 
 When information gain for the subsets Sk is maximized the entropy gets smaller, the more information received the easier to determine the outcome.
 
+We select an attribute to split that are reducing the uncertainty in subsets the most. This means we can move towards creating subsets which have lower and lower entropy.
+
 ### Assignment 5
 
 ### Assignment 6
 
 ### Assignment 7
->>>>>>> 4b206499975dc51e63313e27b15ed0bfffc415a5
