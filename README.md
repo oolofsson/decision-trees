@@ -64,6 +64,8 @@ How can we motivate using the information gain as a heuristic for
 picking an attribute for splitting? Think about reduction in entropy
 after the split and what the entropy implies._
 
+When information gain for the subsets Sk is maximized the entropy gets smaller, the more information received the easier to determine the outcome.
+
 ### Assignment 5
 
 ### Assignment 6
