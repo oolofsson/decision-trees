@@ -46,6 +46,12 @@ can access via m.attributes[0], ..., m.attributes[5]. Based on
 the results, which attribute should be used for splitting the examples
 at the root node?_
 
+Dataset                | a1| a2|a3|a4|a5|a6
+----------------------------|--|--|--|--|--|-------------------
+MONK-1        | 0.07527255560831925 | 0.005838429962909286 | 0.00470756661729721 | 0.02631169650768228 | 0.0007578557158638421 |
+MONK-2      | 0.957117428264771  |  |  |  |  |
+MONK-3 | 0.9998061328047111  |  |  |  |  |
+
 ### Assignment 4
 
 ### Assignment 5
