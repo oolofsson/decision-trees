@@ -30,6 +30,10 @@ _**Assignment 2**: Explain entropy for a uniform distribution and a
 non-uniform distribution, present some example distributions with
 high and low entropy_.
 
+Example for a uniform distrubtion: Rolling a dice has entropy 2.58 which is higher than tossing a coin which has entropy 1. This is because when tossing a coin we have a larger possibility of producing an certain outcome, which leads to lower unpredictability/entropy.
+
+Example for a non-uniform distribution:
+
 ### Assignment 3
 
 ### Assignment 4
