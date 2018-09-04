@@ -26,6 +26,9 @@ MONK-2 | 0.957117428264771
 MONK-3 | 0.9998061328047111
 
 ### Assignment 2
+_**Assignment 2**: Explain entropy for a uniform distribution and a
+non-uniform distribution, present some example distributions with
+high and low entropy_.
 
 ### Assignment 3
 
