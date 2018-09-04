@@ -14,6 +14,12 @@ It would be easiest to learn the MONK-3 dataset because it would be easier to se
 
 ### Assignment 1
 
+Dataset                | Entropy
+----------------------------|-----------------------------
+MONK-1        | 1.0
+MONK-2 | 0.957117428264771
+MONK-3 | 0.9998061328047111
+
 ### Assignment 2
 
 ### Assignment 3
