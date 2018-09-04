@@ -25,6 +25,8 @@ MONK-1        | 1.0
 MONK-2 | 0.957117428264771
 MONK-3 | 0.9998061328047111
 
+Code is in assingnment.py, the function calculate_entropy.  
+
 ### Assignment 2
 _**Assignment 2**: Explain entropy for a uniform distribution and a
 non-uniform distribution, present some example distributions with
@@ -36,6 +38,13 @@ Example for a non-uniform distribution: A non-uniform distribution would be a fa
 Entropy = -0.3log2(0.3) -0.7log2(0.7) = 0.881291
 
 ### Assignment 3
+_**Assignment 3**: Use the function averageGain (defined in dtree.py)
+to calculate the expected information gain corresponding to each of
+the six attributes. Note that the attributes are represented as in-
+stances of the class Attribute (defined in monkdata.py) which you
+can access via m.attributes[0], ..., m.attributes[5]. Based on
+the results, which attribute should be used for splitting the examples
+at the root node?_
 
 ### Assignment 4
 
