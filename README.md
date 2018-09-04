@@ -32,7 +32,8 @@ high and low entropy_.
 
 Example for a uniform distrubtion: Rolling a dice has entropy 2.58 which is higher than tossing a coin which has entropy 1. This is because when tossing a coin we have a larger possibility of producing an certain outcome, which leads to lower unpredictability/entropy.
 
-Example for a non-uniform distribution:
+Example for a non-uniform distribution: A non-uniform distribution would be a fake coin that had 0.7 probability of showing tails and a 0.3 probability of showing heads. If we calculate the entropy for that we get that  
+Entropy = -0.3log2(0.3) -0.7log2(0.7) = 0.881291
 
 ### Assignment 3
 
