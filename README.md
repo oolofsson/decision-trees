@@ -57,6 +57,12 @@ On MONK-2 a5 should be the root node.
 On MONK-3 a2 should be the root node.  
 
 ### Assignment 4
+_**Assignment 4**: For splitting we choose the attribute that maximizes
+the information gain, Eq.3. Looking at Eq.3 how does the entropy of
+the subsets, S k , look like when the information gain is maximized?
+How can we motivate using the information gain as a heuristic for
+picking an attribute for splitting? Think about reduction in entropy
+after the split and what the entropy implies._
 
 ### Assignment 5
 
