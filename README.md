@@ -72,9 +72,9 @@ We select an attribute to split that are reducing the uncertainty in subsets the
 
 Dataset                | E-train | E-test
 ----------------------------|-----|------------------------
-MONK-1        | 1.0 | 1
-MONK-2 | 0.957117428264771 | 1
-MONK-3 | 0.9998061328047111 | 1
+MONK-1        | 0.0 | 0.17129629629629628
+MONK-2 | 0.0 | 0.30787037037037035
+MONK-3 | 0.0 | 0.05555555555555558
 
 ### Assignment 6
 
