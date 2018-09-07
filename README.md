@@ -76,6 +76,9 @@ MONK-1        | 0.0 | 0.17129629629629628
 MONK-2 | 0.0 | 0.30787037037037035
 MONK-3 | 0.0 | 0.05555555555555558
 
+Our assumptions were correct, we thought that MONK-2 would be the hardest to learn and MONK-1 the second hardest.
+The reason that the errors for training is 0 is that we are testing against the same data that was used for learning.
+
 ### Assignment 6
 
 ### Assignment 7
