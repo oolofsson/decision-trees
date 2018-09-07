@@ -80,5 +80,6 @@ Our assumptions were incorrect, the entropy suggested that the MONK-2 dataset we
 The reason we get no error rate testing against the training set is because we've built the decision tree using this dataset. It is classifying perfectly against the training data but could be overfitted.
 
 ### Assignment 6
+Pruning increases bias and reduces variance.
 
 ### Assignment 7
