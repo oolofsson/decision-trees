@@ -76,8 +76,8 @@ MONK-1        | 0.0 | 0.17129629629629628
 MONK-2 | 0.0 | 0.30787037037037035
 MONK-3 | 0.0 | 0.05555555555555558
 
-Our assumptions were correct, we thought that MONK-2 would be the hardest to learn and MONK-1 the second hardest.
-The reason that the errors for training is 0 is that we are testing against the same data that was used for learning.
+Our assumptions were incorrect, the entropy suggested that the MONK-2 dataset were the most predictable but in fact MONK-2 got the highest error rate. This could be because of overfitting.
+The reason we get no error rate testing against the training set is because we've built the decision tree using this dataset. It is classifying perfectly against the training data but could be overfitted.
 
 ### Assignment 6
 
