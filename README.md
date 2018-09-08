@@ -80,11 +80,15 @@ Our assumptions were incorrect, the entropy suggested that the MONK-2 dataset we
 The reason we get no error rate testing against the training set is because we've built the decision tree using this dataset. It is classifying perfectly against the training data but could be overfitted.
 
 ### Assignment 6
-Pruning increases bias and reduces variance.
+Pruning increases bias and reduces variance. Classification trees often have a high variance and by pruning and removing overfitted nodes or leaves we can reduce variance.
 
 ### Assignment 7
 ![](monk1.png) 
 ![](monk3.png)
+
+We get the lowest mean errors with the fraction of 0.8, which is logical.  
+The bigger training set in comparison to the validation set, the less error rate.
+
 
 Dataset                | 0.3| 0.4|0.5|0.6 | 0.7 | 0.8
 ----------------------------|--|--|--|--|--|-------------------
