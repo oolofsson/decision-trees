@@ -83,6 +83,9 @@ The reason we get no error rate testing against the training set is because we'v
 Pruning increases bias and reduces variance.
 
 ### Assignment 7
+![](monk1.png) 
+![](monk3.png)
+
 Dataset                | a1| a2|a3|a4|a5|a6
 ----------------------------|--|--|--|--|--|-------------------
 MONK-1-MEAN        | 0.22528735632183913 | 0.20680000000000007 | 0.16387096774193555 | 0.14739999999999992 | 0.1265789473684211236842112 |  0.11479999999999997 |
