@@ -45,7 +45,7 @@ def partition(data, fraction):
     return ldata[:breakPoint], ldata[breakPoint:]
 
 
-def prune(dataset, fraction):
+def prune(dataset, fraction, testset):
     training_set, validation_set = partition(dataset, fraction)
     newtree = buildTree(training_set, m.attributes);
     bestVal = 10000;
@@ -65,7 +65,7 @@ def prune(dataset, fraction):
         else:
             break
         newtree = alternativeTrees[bestTree]
-    return newtree, 1 - check(newtree, validation_set) # returns the new tree and the error rate for it
+    return newtree, 1 - check(newtree, testset) # returns the new tree and the error rate for it
 
 def main():
     calculate_entropy() # assignment 1
@@ -90,19 +90,19 @@ def main():
         for x in range (0, N):
             t=buildTree(m.monk1, m.attributes)
             original_error_monk1 = 1 - check(t, m.monk1test)
-            tree, error = prune(m.monk1, fractions[i])
+            tree, error = prune(m.monk1, fractions[i], m.monk1test)
             monk1_error_rates.append(error)
             total_error_monk1 = total_error_monk1 + error
 
             t=buildTree(m.monk2, m.attributes)
             original_error_monk2 = 1 - check(t, m.monk2test)
-            tree, error = prune(m.monk2, fractions[i])
+            tree, error = prune(m.monk2, fractions[i], m.monk2test)
             total_error_monk2 = total_error_monk2 + error
             monk2_error_rates.append(error)
 
             t=buildTree(m.monk3, m.attributes)
             original_error_monk3 = 1 - check(t, m.monk3test)
-            tree, error = prune(m.monk3, fractions[i])
+            tree, error = prune(m.monk3, fractions[i], m.monk3test)
             total_error_monk3 = total_error_monk3 + error
             monk3_error_rates.append(error)
 
@@ -117,16 +117,18 @@ def main():
         monk2_error_rates.clear()
         monk3_error_rates.clear()
 
-    
+
     print("\n monk1")
     for i in range(0,6):
         print(monk1_mean_error_rates[i], " with fraction = ", fractions[i])
         print("standard deviation = ", stdev_monk1[i])
 
+    '''
     print("\nmonk2")
     for i in range(0,6):
         print(monk2_mean_error_rates[i], " with fraction = ", fractions[i])
         print("standard deviation = ", stdev_monk2[i])
+    '''
 
     print("\nmonk3")
     for i in range(0,6):
@@ -142,12 +144,14 @@ def main():
     plotta.legend(loc='upper right', frameon=False)
     plotta.show()
 
+    '''
     plotta.plot(fractions, monk2_mean_error_rates, color='#000000', marker='o', label = "Means of errors")
     plotta.title("MONK-2 Fractions vs Error rate")
     plotta.xlabel("fractions")
     plotta.ylabel("errors")
     plotta.legend(loc='upper right', frameon=False)
     plotta.show()
+    '''
 
     plotta.plot(fractions, monk3_mean_error_rates, color='#000000', marker='o', label = "Means of errors")
     plotta.title("MONK-3 Fractions vs Error rate")
